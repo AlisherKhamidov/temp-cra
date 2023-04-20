@@ -7,6 +7,7 @@ import Layout from '../Layout/Layout';
 import Home from '../Home/Home';
 import Cinema from '../Cinema/Cinema';
 import ShoeShop from '../ShoeShop/ShoeShop';
+import BootstrapPage from '../BootstrapPage/BootstrapPage';
 
 function App(): JSX.Element {
   return (
@@ -17,6 +18,7 @@ function App(): JSX.Element {
         <Route path="/cinema" element={<Cinema />} />
         <Route path="/shoeshop" element={<ShoeShop />} />
         <Route path="/" element={<Home />} />
+        <Route path="/bootstrap" element={<BootstrapPage />} />
       </Route>
     </Routes>
   );

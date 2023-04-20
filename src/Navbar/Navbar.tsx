@@ -23,6 +23,9 @@ function Navbar(): JSX.Element {
   function handleShoesClick():void {
     navigate('/shoeshop');
   }
+  function handleBootstrapClick():void {
+    navigate('/bootstrap');
+  }
 
   return (
     <div>
@@ -32,6 +35,7 @@ function Navbar(): JSX.Element {
       <button type="button" onClick={handleHomeClick}>Home</button>
       <button type="button" onClick={handleCinemaClick}>Cinema</button>
       <button type="button" onClick={handleShoesClick}>Shoes Shop</button>
+      <button type="button" onClick={handleBootstrapClick}>Bootstrap</button>
       <Button message=" информации" />
       <Button message=" фидбека" />
     </div>
